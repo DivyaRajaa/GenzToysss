@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Toy</title>
+
+<style>
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f5f0ff;
+    margin:0;
+}
+
+.container{
+    width:500px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    color:#7b2cbf;
+}
+
+input,select,textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#7b2cbf;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#5a189a;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Add New Toy</h1>
+
+<form action="AddToyServlet" method="post">
+
+<input type="text"
+name="name"
+placeholder="Toy Name"
+required>
+
+<select name="category">
+
+<option>Boys</option>
+
+<option>Girls</option>
+
+</select>
+
+<input type="number"
+name="price"
+placeholder="Price"
+required>
+
+<textarea
+name="description"
+placeholder="Description"
+rows="4"
+required></textarea>
+
+<input type="number"
+name="stock"
+placeholder="Stock"
+required>
+
+<input type="text"
+name="image"
+placeholder="Image Name (example: robot.jpg)"
+required>
+
+<button type="submit">
+
+Add Toy
+
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

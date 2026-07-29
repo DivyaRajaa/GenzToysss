@@ -1,0 +1,168 @@
+body{
+
+    margin:0;
+    font-family:'Arial',sans-serif;
+    background:#f8f5ff;
+
+}
+
+
+/* Header */
+
+header{
+
+    background:#7b2cbf;
+    color:white;
+    text-align:center;
+    padding:25px;
+
+}
+
+
+header h1{
+
+    font-size:45px;
+    margin:0;
+
+}
+
+
+header p{
+
+    font-size:20px;
+
+}
+
+
+
+/* Welcome section */
+
+.welcome{
+
+    text-align:center;
+    padding:50px;
+
+}
+
+
+.welcome h2{
+
+    font-size:35px;
+    color:#5a189a;
+
+}
+
+
+.welcome p{
+
+    font-size:18px;
+
+}
+
+
+
+/* Buttons */
+
+.buttons{
+
+    margin-top:30px;
+
+}
+
+
+button{
+
+    background:#7b2cbf;
+    color:white;
+
+    border:none;
+
+    padding:15px 40px;
+
+    margin:10px;
+
+    border-radius:30px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+
+button:hover{
+
+    background:#5a189a;
+
+}
+
+
+
+/* Toy cards */
+
+.categories{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:50px;
+
+    margin:30px;
+
+}
+
+
+.toy-card{
+
+    width:300px;
+
+    background:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+
+}
+
+
+.toy-card img{
+
+    width:220px;
+
+    height:180px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+}
+
+
+.toy-card h2{
+
+    color:#7b2cbf;
+
+}
+
+
+
+/* Footer */
+
+footer{
+
+    margin-top:40px;
+
+    background:#7b2cbf;
+
+    color:white;
+
+    text-align:center;
+
+    padding:15px;
+
+}
